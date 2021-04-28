@@ -6,9 +6,9 @@ import { Pages } from '../../main-page/pages';
 })
 export class ContentService {
   pages: Pages = {
-    'home': { title: 'Home', subtitle: 'Welcome Home!', content: 'Some home content.' },
-    'about': { title: 'About', subtitle: 'About Us', content: 'Some content about us.' },
-    'contact': { title: 'Contact', subtitle: 'Contact Us', content: 'How to contact us.' },
+    'home': { title: 'Главная', subtitle: 'Подзаголовок', content: 'Какой-то контент.' },
+    'about': { title: 'О нас', subtitle: 'Подзаголовок', content: 'Контент о нас.' },
+    'contact': { title: 'Контанты', subtitle: 'Связаться с нами', content: 'Как с нами связаться.' },
   };
 
   constructor() {

@@ -125,6 +125,14 @@
               "devServerTarget": "business:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://romserg.github.io/business/",
+            "name": "Romserg",
+            "email": "serg.romankov@gmail.com"
+          }
         }
       }
     }
